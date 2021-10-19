@@ -1,4 +1,5 @@
-# --require spec_helper
+require "docking_station"
+
 describe DockingStation do
 
 end    
