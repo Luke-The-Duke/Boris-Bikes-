@@ -1,0 +1,36 @@
+As a person,
+
+So that I can use a bike,
+
+I'd like a docking station to release a bike.
+
+| Objects:        | Messages:           |
+
+| person          | use_bike            |
+
+| bike            |                     |
+
+| docking station | release_bike        |
+
+As a person,
+
+So that I can use a good bike,
+
+I'd like to see if a bike is working
+
+| Objects:        | Messages:           |
+
+| person          | use_good_bike       |
+
+| bike            | is_working?         |
+
+
+my_bike = dockingstation.realease_bike
+
+person.use_bike(my_bike)
+
+my_bike = dockingstation.realease_bike
+
+person.use_bike(my_bike) if my_bike.is_working? 
+
+
